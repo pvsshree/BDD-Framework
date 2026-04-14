@@ -16,7 +16,8 @@ private static 	String title;
 
 @Given("User is on the Orange HRM Login Page")
 public void user_is_on_the_Orange_HRM_login_page() {
-	DriverFactory.getDriver().get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");; 
+DriverFactory.getDriver().get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");; 
+System.out.println("Hello this is Steps file");
 }
 
 @When("User gets title of the page")
